@@ -20,6 +20,7 @@ You will be building a simple calculator in the browser. It should be able to ad
 4. When a user clicks on a button it should work like a standard calculator. 
 
   a. Every number they click should be captured and build the 1st number until they click an operator (Ex. If they click 1 and 8, your program should display 18 to them)
+  
   b. Clicking an operator (+, -, x, =) should only work if they have clicked numbers first.
   
   c. A user can only fill out the 2nd number once they have filled out the 1st number and clicked an operator.
