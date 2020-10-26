@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator Starter</title>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="text-center">JavaScript Calculator</h1>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Calculator Card -->
+      <div class="col-lg-4">
+        <div class="card">
+          <h3 class="card-header">Calculator</h3>
+
+          <div class="card-body">
+            <button id="button-1" class="btn btn-primary number" value="1">1</button>
+            <button id="button-2" class="btn btn-primary number" value="2">2</button>
+            <button id="button-3" class="btn btn-primary number" value="3">3</button>
+            <button id="button-plus" class="btn btn-danger operator" value="plus">+</button>
+            <br><br>
+            <button id="button-4" class="btn btn-primary number" value="4">4</button>
+            <button id="button-5" class="btn btn-primary number" value="5">5</button>
+            <button id="button-6" class="btn btn-primary number" value="6">6</button>
+            <button id="button-minus" class="btn btn-danger operator" value="minus">&minus;</button>
+            <br><br>
+            <button id="button-7" class="btn btn-primary number" value="7">7</button>
+            <button id="button-8" class="btn btn-primary number" value="8">8</button>
+            <button id="button-9" class="btn btn-primary number" value="9">9</button>
+            <button id="button-multiply" class="btn btn-danger operator" value="times">&times;</button>
+            <br><br>
+            <button id="button-0" class="btn btn-primary number" value="0">0</button>
+            <button id="button-divide" class="btn btn-danger operator" value="divide">&divide;</button>
+            <button id="button-power" class="btn btn-danger operator" value="power">^</button>
+            <button id="button-equal" class="btn btn-success equal" value="equals">=</button>
+            <br><br>
+            <button id="button-clear" class="btn btn-dark clear" value="clear">clear</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Card -->
+      <div class="col-lg-6">
+        <div class="card">
+          <h3 class="card-header">Result</h3>
+          <div class="card-body">
+            <h1 id="first-number"></h1>
+            <h1 id="operator"></h1>
+            <h1 id="second-number"></h1>
+            <hr>
+            <h1 id="result"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
